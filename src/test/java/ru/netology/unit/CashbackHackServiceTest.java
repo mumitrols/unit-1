@@ -1,13 +1,13 @@
 package ru.netology.unit;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
-    void shouldReturn100IfAmountIs900() {
+    public void shouldReturn100IfAmountIs900() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 900;
 
@@ -18,7 +18,7 @@ class CashbackHackServiceTest {
     }
 
     @Test
-    void shouldReturn300IfAmountIs5700() {
+    public void shouldReturn300IfAmountIs5700() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 5700;
 
